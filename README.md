@@ -9,4 +9,4 @@
 
 **4. Material/Links para estudo**
 
-*Repositório do curso de Desenvolvimento Web da Jornada de Curso 2018 - CITi *
+*Repositório do curso de Desenvolvimento Web da Jornada de Curso 2018 - CITi*
