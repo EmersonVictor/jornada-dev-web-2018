@@ -11,14 +11,7 @@ Se você já é aluno, aqui existem algumas informaões importantes. Qualquer du
 > Email: emersonvvictor@gmail.com |  evfl@cin.ufpe.br 
 
 > Facebook: [Emerson Victor](https://www.facebook.com/emersonvvictor)
----
-## Sumário
-1. [Como vai funcionar o curso?](##1-como-vai-funcionar-o-curso?)
-2. [Material](##2-material)
-3. [Avaliação](##3-avaliação)
-4. [Links importantes](##4-links-importantes)
-5. [Material para estudo](##5-material-para-estudo)
----
+----
 ## **1. Como vai funcionar o curso?**
 O curso vai ter três pilares: HTML, CSS e JavaScript. Na primeira semana veremos apenas HTML e CSS e na segunda semana focaremos em JavaScript e em algumas coisas mais avançadas de HTML e CSS. As aulas vão ser parte expositiva e parte prática, abordaremos um determinado assunto e faremos algumas atividades relacionadas a eles.
 
