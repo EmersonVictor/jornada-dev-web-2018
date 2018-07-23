@@ -33,6 +33,10 @@ Nessa secção serão adicionados links importantes no decorrer do curso:
 ## **5. Material para estudo**
 Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendimento ou ainda para aprofundar algo visto. Se alguém tiver algum material interessante, pode fazer um sugestão que eles serão acrescentados nessa lista.
 
+- [CSS Dinner](https://flukeout.github.io)
+- [How to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-3ae955d414cd)
+- [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
+
 > ```ESTRUTURA PARA SUGESTÃO: [Título referente ao conteúdo](https://www.link-para-o-conteúdo.com)```
 > 
 
