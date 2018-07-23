@@ -28,7 +28,7 @@ Nessa secção serão adicionados links importantes no decorrer do curso:
 
 - [Sublime Text - Editor](https://www.sublimetext.com)
 - [VSCode - Editor](https://code.visualstudio.com)
-- 
+- [Informação sobre atributos CSS](https://www.w3schools.com)
 
 ## **5. Material para estudo**
 Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendimento ou ainda para aprofundar algo visto. Se alguém tiver algum material interessante, pode fazer um sugestão que eles serão acrescentados nessa lista.
