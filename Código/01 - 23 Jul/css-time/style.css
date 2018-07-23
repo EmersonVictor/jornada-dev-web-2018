@@ -1,0 +1,21 @@
+div {
+    width: 100px;
+    height: 100px;
+    font: "Arial" 12px red;
+}
+
+.red {
+    background-color: red;
+}
+
+.blue {
+    background-color: blue;
+}
+
+.red span {
+    font-weight: bold;
+}
+
+.blue span {
+    font-weight: lighter;
+}
