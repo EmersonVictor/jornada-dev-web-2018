@@ -35,6 +35,7 @@ Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendim
 - HTML
 - CSS
     - [CSS Dinner](https://flukeout.github.io)
+    - [100 Desafios CSS](https://100dayscss.com)
 - JS
     - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
 - Outros

@@ -2,8 +2,8 @@
 
 
 /* -- Seleciona todos os elementos -- */
-* {}
-h1 * {}
+* { }
+h1 * { color: paleturquoise; }
 
 /* Ela deixa o navegador muito pesado (por ter de selecionar todo e cada elemento)
 Também pode ser utilizada como seletor filho */
@@ -11,6 +11,7 @@ Também pode ser utilizada como seletor filho */
 
 /* -- Seleciona elemento por ID -- */
 #identificador {}
+#x {}
 
 /* Seletores como esse são rígidos e não permitem reuso. 
 Se possível, prefira usar classes */
@@ -19,6 +20,11 @@ Se possível, prefira usar classes */
 
 /* -- Seleciona elemento por class -- */
 .class {}
+.x { text-decoration: underline; }
+.btn-green { 
+    background-color: black;
+    color: black;
+}
 /* Com a classe, você pode selecionar vários elementos */
 
 
@@ -27,6 +33,11 @@ li a {}
 section p {}
 section > p {}
 div > img {}
+div > p {
+    color: beige;
+}
+footer img {}
+footer > img { width: 50px; }
 /* Quando precisar ser mais específico em seus seletores, use esse. 
 Por exemplo, se, ao invés de mirar todas as tags de âncora (a), 
 talvez você só precise selecionar aquelas que estão dentro de um elemento da lista 
@@ -36,7 +47,9 @@ Importante observar nível de descendencia
 /* -- Selectiona todos os elementos de um determinado tipo na página -- */
 h1 {}
 input {}
-
+footer {
+    background-color: blueviolet;
+}
 
 /* -- Pseudo-classes -- */
 /* Uma pseudo-classe é uma palavra-chave que é adicionada a seletores que especificam 
@@ -52,12 +65,25 @@ div:last-child {}
 section:nth-child(n) {} 
 section:nth-last-child(n) {}
 
+a {
+    color: aqua;
+    font-size: 1000px;
+}
+
+a:hover {
+    color: royalblue;
+}
 
 
 /*  -- Seletores por adjacência -- */
 div + h1 {}
+/* Imediatamente após (apenas um) */
 section ~ p {}
+/* Todos os irmão */
 /* Ele selecionará somente o elemento imediatamente após o primeiro elemento */
+.um ~ div {
+    color: purple;
+}
 
 
 

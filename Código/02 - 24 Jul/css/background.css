@@ -4,6 +4,7 @@ background-color.........define a cor do fundo;
 background-image.........define uma imagem de fundo;
 background-repeat........define a maneira como a imagem de fundo é  posicionada;
 background-attachment....define se a imagem de fundo "rola" ou não com a tela;
+Efeito paralax
 background-position......define como e onde a imagem de fundo é posicionada; 
 background-clip..........define a área do box onde a imagem de fundo é aplicada; 
 background-origin........define a posição de origem da imagem no box; 
@@ -11,3 +12,10 @@ background-size..........define as dimensões da imagem no box;
 background...............maneira abreviada para declarar todas as propriedades anteriores 
 
 */
+
+div {
+    height: 100vh;
+    width: 100vw;
+    background: url("https://media.giphy.com/media/3o7WTp1DWPEmKsfYFq/giphy.gif") no-repeat center;
+    background-size: cover;
+}
