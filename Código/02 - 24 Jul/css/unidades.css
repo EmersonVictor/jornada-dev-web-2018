@@ -1,0 +1,31 @@
+/* -- Unidades de medidas de distância/tamanho -- */
+/* Medidas relativas */
+/* Para fontes: em, rem */
+/* Porcentagem da viewport: vw, vh */
+/* Porcetagem: % */
+
+/* Medidas absolutas */
+/* Unidades: pt, px */
+
+
+/* -- Unidades de medidas para outras quantidades -- */
+/* Ângulos: unidades: deg */
+/* Duração: unidades s, ms */
+
+
+/* Exemplos */
+p { font-size: 1.5em; } 
+blockquote { font-size: 2rem; } 
+
+nav { width: 50vw; }
+footer { height: 30vh; }
+
+input { width: 30%; }
+
+p { font-size: 14px; }
+hr { width: 14pt; }
+
+
+div { background-image: linear-gradient( 45deg, white, black ); }
+section { transition-duration: 3s; }
+

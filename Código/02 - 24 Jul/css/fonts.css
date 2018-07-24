@@ -1,0 +1,23 @@
+/*
+text-transform: capitalize | uppercase | lowercase | none;
+text-decoration: underline | overline | line-through | blink | none;
+text-align: left | right | center | justify;
+line-height: valor_absoluto | comprimento | porcentagem | normal;
+
+color.................cor da fonte;
+font-family...........família (tipo) de fontes;
+font-size.............tamanho da fonte;
+font-style............estilo da fonte;
+font-variant..........fontes maiúsculas de menor altura;
+font-weight...........peso da fonte;
+font-stretch..........grau de espansão/contração dos glifos;
+font..................maneira abreviada para declarar todas as propriedades anteriores (exceto cor). 
+
+*/
+
+
+/* Import fonts */
+/* @font-face {
+    font-family: font-name ;
+    src: url(path/to/font);
+} */

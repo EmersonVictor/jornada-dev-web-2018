@@ -1,0 +1,67 @@
+/* SELETORES CSS */
+
+
+/* -- Seleciona todos os elementos -- */
+* {}
+h1 * {}
+
+/* Ela deixa o navegador muito pesado (por ter de selecionar todo e cada elemento)
+Também pode ser utilizada como seletor filho */
+
+
+/* -- Seleciona elemento por ID -- */
+#identificador {}
+
+/* Seletores como esse são rígidos e não permitem reuso. 
+Se possível, prefira usar classes */
+
+
+
+/* -- Seleciona elemento por class -- */
+.class {}
+/* Com a classe, você pode selecionar vários elementos */
+
+
+/* -- Seletor de descendência -- */
+li a {}
+section p {}
+section > p {}
+div > img {}
+/* Quando precisar ser mais específico em seus seletores, use esse. 
+Por exemplo, se, ao invés de mirar todas as tags de âncora (a), 
+talvez você só precise selecionar aquelas que estão dentro de um elemento da lista 
+Importante observar nível de descendencia
+*/
+
+/* -- Selectiona todos os elementos de um determinado tipo na página -- */
+h1 {}
+input {}
+
+
+/* -- Pseudo-classes -- */
+/* Uma pseudo-classe é uma palavra-chave que é adicionada a seletores que especificam 
+um estado espacial do elemento selecionado. Por exemplo :hover irá adicionar um estilo
+quando o usuário passar o mouse pelo elemento */
+button:hover {}
+a:visited {}
+a:link {}
+a:active {}
+input:focus {}
+div:first-child {}
+div:last-child {}
+section:nth-child(n) {} 
+section:nth-last-child(n) {}
+
+
+
+/*  -- Seletores por adjacência -- */
+div + h1 {}
+section ~ p {}
+/* Ele selecionará somente o elemento imediatamente após o primeiro elemento */
+
+
+
+/*  -- Seletores de negação -- */
+section:not(.main) {}
+*:not(p) {}
+/* Se quisesse selecionar todos os elementos (o que não é recomendado), exceto pelas tags de parágrafo, poderia ser feito assim */
