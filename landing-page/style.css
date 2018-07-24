@@ -1,3 +1,70 @@
-@charset "UTF-8";
-/* CSS Document */
+* {
+    color: #313131;
+}
 
+html, body {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+}
+
+p {
+    font-size: 1.6rem;
+    font-weight: thin;
+}
+
+a {
+    text-decoration: none;
+}
+
+a:visited, a:active {
+    color: #313131;
+}
+
+#banner {
+    background-color: #fff;
+    height: 60vh;
+    background-image: url("assets/banner-bg.png");
+    background-repeat: no-repeat;
+    background-position: 300px 0px;
+    background-size: cover;
+}
+
+.social-icon {
+    height: 60px;
+    width: auto;
+}
+
+.page-title {
+    margin: 0 0 18px 0;
+    color: #313131;
+    font-size: 4rem;
+}
+
+.page-title > span {
+    color: #CD4167;
+}
+
+.banner-content {
+    width: 40%;
+    margin-left: 7%;
+}
+
+.pink-button {
+    background-color: #CD4167;
+    width: 50%;
+    height: 40px;
+    border: 0px solid transparent;
+    border-radius: 30px;
+    box-shadow: 4px 0px 21px -2px grey;
+}
+
+.pink-button > a {
+    color: white;
+    font-size: 1.6rem;
+}
+
+/* Form section */
+#form {
+    background-color: #313131;
+}
