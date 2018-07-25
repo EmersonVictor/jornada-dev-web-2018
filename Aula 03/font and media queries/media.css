@@ -25,3 +25,24 @@ Media queries consistem de um media type e podem, a partir de uma especificaçã
 que determinam ou verdadeiro ou falso. Os resultados da query são verdadeiros se o media type especificado na media query corresponde ao tipo do documento 
 exibido no dispositivo e todas as expressões na media query são verdadeiras.
 */
+
+
+@media screen, (max-width: 500px) and (min-width: 300px) {
+    /* Quando meu dispositivo for do tipo screen, resolução menor ou igual a 500px e quando
+    meu dispositivo for maior ou igual a 300px */
+    h1 {
+
+    }
+}
+
+
+
+h1 {
+    font-size: 15px;
+}
+
+@media screen and (max-width: 550px) {
+    h1 {
+        font-size: 12px;
+    }
+}

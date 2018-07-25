@@ -23,6 +23,11 @@ Também pode ser utilizada como seletor filho */
 /* -- Seleciona elemento por ID -- */
 #identificador {}
 #x {}
+#red-div {
+    width: 100px;
+    height: 100px;
+    background-color: red;
+}
 /* <button id="x">  </button> */
 
 /* Seletores como esse são rígidos e não permitem reuso. 
@@ -69,15 +74,19 @@ footer {
 /* Uma pseudo-classe é uma palavra-chave que é adicionada a seletores que especificam 
 um estado espacial do elemento selecionado. Por exemplo :hover irá adicionar um estilo
 quando o usuário passar o mouse pelo elemento */
-button:hover {}
+button:hover {
+    opacity: 0.5;
+}
 a:visited {}
 a:link {}
 a:active {}
-input:focus {}
+input:focus {
+    outline: transparent;
+}
 div:first-child {}
 div:last-child {}
 section:nth-child(n) {} 
-section:nth-last-child(n) {}
+section:nth-last-child(2n) {}
 
 a {
     color: aqua;
@@ -102,6 +111,7 @@ section ~ p {}
 
 
 /*  -- Seletores de negação -- */
+*:not(.main)
 section:not(.main) {}
 *:not(p) {}
 /* Se quisesse selecionar todos os elementos (o que não é recomendado), exceto pelas tags de parágrafo, poderia ser feito assim */

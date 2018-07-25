@@ -8,4 +8,27 @@ COMO IMPORTAR FONTES PARA O PROJETO?
     src: url(path/to/font);
 } 
 
+
+
 */
+
+h1 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("Josefin_Sans/JosefinSans-Regular.ttf");
+} 
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("Josefin_Sans/JosefinSans-Bold.ttf");
+    font-weight: bold;
+} 
+
+@font-face {
+    font-family: "JosefinSans";
+    src: url("Josefin_Sans/JosefinSans-Italic.ttf");
+    font-style: italic;
+} 

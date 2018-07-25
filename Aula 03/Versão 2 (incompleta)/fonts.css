@@ -1,0 +1,25 @@
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(assets/Josefin_Sans/JosefinSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(assets/Josefin_Sans/JosefinSans-Bold.ttf);
+    font-weight: bold;
+}
+
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(assets/Josefin_Sans/JosefinSans-Thin.ttf);
+    font-weight: thin;
+}
+
+@font-face {
+    font-family: "Josefin Sans";
+    src: url(assets/Josefin_Sans/JosefinSans-Italic.ttf);
+    font-style: italic;
+}
+
+
