@@ -1,0 +1,27 @@
+/* 
+
+https://developer.mozilla.org/pt-BR/docs/Web/Guide/CSS/CSS_Media_queries
+https://www.devmedia.com.br/entendendo-sobre-css-media-types-e-media-queries/28268
+
+
+///// MEDIAS TYPES \\\\\
+As Medias Types, basicamente definem pra qual tipo de media o css que você usa em seu site será direcionado, ou seja, para cada dispositivo diferente que você acessa um website, será necessário um css diferente também.
+
+Além da media mais comum que é o caso de acessar um site do desktop e acessar de um smartphone ou tablet, existem muitas outras medias, como por exemplo:
+
+All :Para todos os dispositivos.
+Screen :Para monitores ou outros dispositivos com telas coloridas e com resolução adequada.
+Handheld: Para dispositivos de mão. Normalmente com telas pequenas e banda limitada.
+Embossed: Para dispositivos que “imprimem” em braille.
+Tty: Para dispositivos que utilizam uma grade fixa para exibição de caracteres, como por exemplo, teletypes, terminais, dispositivos portáteis com display limitado.
+Print: Para impressão em papel.
+Braille: Para dispositivos táteis.
+Projection: Para apresentações, como PowerPoint.
+TV: Para dispositivos como televisores, ou seja, com baixa resolução, quantidade de cores e scroll limitado.
+Speech: Para sintetizadores de voz.
+
+//// MEDIAS QUERIES \\\\
+Media queries consistem de um media type e podem, a partir de uma especificação CSS3, contendo uma ou mais expressões, expressa em media features, 
+que determinam ou verdadeiro ou falso. Os resultados da query são verdadeiros se o media type especificado na media query corresponde ao tipo do documento 
+exibido no dispositivo e todas as expressões na media query são verdadeiras.
+*/
