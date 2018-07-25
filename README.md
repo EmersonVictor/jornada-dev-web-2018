@@ -29,17 +29,20 @@ Nessa secção serão adicionados links importantes no decorrer do curso:
 - [Sublime Text - Editor](https://www.sublimetext.com)
 - [VSCode - Editor](https://code.visualstudio.com)
 - [Informação sobre atributos CSS](https://www.w3schools.com)
+- [Documentaçao sobre HTML e CSS](https://developer.mozilla.org/pt-BR/docs/Web)
 
 ## **5. Material para estudo**
 Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendimento ou ainda para aprofundar algo visto. Se alguém tiver algum material interessante, pode fazer um sugestão que eles serão acrescentados nessa lista.
-- HTML
 - CSS
     - [CSS Dinner](https://flukeout.github.io)
     - [100 Desafios CSS](https://100dayscss.com)
+    - [Conteúdo sobre CSS](http://www.maujor.com/)
 - JS
     - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
 - Outros
     - [How to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-3ae955d414cd)
+    - [Google Fonts](https://fonts.google.com/)
+    - [GitHub Tutorial](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
 
 
