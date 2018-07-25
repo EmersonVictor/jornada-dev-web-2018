@@ -5,36 +5,68 @@
     <title>Form</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="main.css" />
-    <style>
-        section {
-            margin: 50px 0;
-            border: 2px solid black;
-            padding: 50px;
-        }
-    
-    </style>
 </head>
 <body>
-    <form action="" method="post">
+    <!-- Tag form pode conter:
+            <input>
+            <textarea>
+            <button>
+            <select>
+            <option>
+            <optgroup>
+            <fieldset>
+            <label>  
+    -->
+    <form action="" method="POST">
+        <!-- Tag <fieldset> separar os conteúdos de um formulário de acordo com sua finalidade
+            Ex: informação pessoal, informação profissional, endereço, etc -->
         <fieldset>
+            <!-- Tag <legend> adiciona um título/legenda ao fildset, indicando sua finalidade -->
             <legend>Personal information:</legend>
-            <label for="text">Label for text</label>
-            <input placeholder="text" id="text" type="text">
-            <input type="radio" name="same">
-            <input type="radio" name="same">
+            
+            <!-- Tag label, como o próprio nome diz adiciona uma label a um input -->
+            <!-- A tag label tem um atributo for que liga a um input pelo ID do input
+            Exemplo abaixo -->
+            <!-- O input tbm tem o atributo readonly que bloquea a possibilidade do usuário de selecionar o campo -->
+            <label for="Name">Label for Name</label>
+            <input placeholder="Digite seu nome..." id="Name" type="text" required value="Meu nome">
+            <!-- Outros types de input: email, tel, cel -->
+
+            <!-- Input de seleção única, exemplo: Sexo, Relacionamento -->
+            <input type="radio" name="sexo">
+            <input type="radio" name="sexo">
+
+            <!-- Input de seleção múltipla, exemplo: O que você gosta, quais suas habilidades -->
             <input type="checkbox">
             <input type="checkbox">
             <input type="checkbox">
+            
+            <!-- Input que gera um botão do tipo submit -->
             <input type="submit">
-            <textarea name="message" rows="10" cols="30">
+
+            <!-- Area de texto utilizada para descrição, por exemplo -->
+            <!-- Atributo rows e cols são referentes ao tamanho aparente da textarea -->
+            <textarea name="message" rows="10" cols="5">
                 Quantidade de colunas e linhas visíveis
             </textarea>
+
+            <!-- Botões que pode ser do tipo botão: Realizar alguma ação -->
+            <!-- Ou do tipo submit que serve para enviar formulários, semelhante ao <input type="submit" /> -->
             <button type="button">Click Me!</button>
+            <button type="submit">Click Me!</button>
         </fieldset>
         <fieldset>
-            <select name="" id="" multiple>
+            <!-- A tag <select> cria um dropdown para seleção de um único elemento
+                ou para a seleção de multiplos elementos (de acordo com o seu atributo) -->
+            <!-- Ele ainda tem os atributos disabled que desativa a seleção -->
+            <select name="" id="">
+                <!-- A tag <optgropu> agrupa os elementos de um dropdown -->
                 <optgroup>
-                    <option value=""> Teste </option>
+                    <!-- A tag <option> esta referente a cada elementos do dropdown ou do grupo de seleção -->
+                    <!-- Ela possui os atributos selected (que seleciona de maneira padrão o elemento) e
+                    disable que desativa a seleção da opção -->
+                    <option value="" selected disabled> Cidades do brasil </option>
+                    <option value=""> Teste1 </option>
                     <option value=""> Teste </option>
                     <option value=""> Teste </option>
                 </optgroup>
