@@ -37,6 +37,11 @@ Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendim
     - [CSS Dinner](https://flukeout.github.io)
     - [100 Desafios CSS](https://100dayscss.com)
     - [Conteúdo sobre CSS](http://www.maujor.com/)
+    - [Aprenda a fazer layout no CSS](http://pt-br.learnlayout.com)
+    - [Flex Froggy](https://flexboxfroggy.com)
+    - [Flexbox Defense](http://www.flexboxdefense.com)
+    - [Grid Garden](https://cssgridgarden.com)
+    - [CSS Course - WesBos](https://cssgrid.io)
 - JS
     - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
 - Outros
@@ -44,9 +49,4 @@ Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendim
     - [Google Fonts](https://fonts.google.com/)
     - [GitHub Tutorial](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
-
-
-
-> ```ESTRUTURA PARA SUGESTÃO: [Título referente ao conteúdo](https://www.link-para-o-conteúdo.com)```
-> 
-
+> ```ESTRUTURA PARA SUGESTÃO: [Título referente ao conteúdo](https://www.link-para-o-conteúdo.com)``` 
