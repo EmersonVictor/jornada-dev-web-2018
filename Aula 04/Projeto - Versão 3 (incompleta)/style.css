@@ -73,12 +73,18 @@ a:visited, a:active {
 
 /* Form section */
 #form {
+    height: 70vh;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
     background-color: #313131;
-    color: white;
+    color: white; 
 }
 
 .lancamento-content {
     margin-left: 7%;
+    max-width: 500px;
 }
 
 .lancamento-content > h2 {
@@ -90,9 +96,12 @@ a:visited, a:active {
 }
 
 form {
-    min-width: 300px;
-    width: 30%;
-    padding: 40px 30px;
+    margin-right: 7%;
+    width: 300px;
+    padding: 70px 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     background-color: white;
     color: #313131;
     box-shadow: 0px 0px 32px 2px rgba(0,0,0,0.75);
@@ -102,12 +111,17 @@ form {
 form > input, form > select {
     padding: 0 5px;
     width: 100%;
-    margin: 5px 0;
-    height: 20px;
+    margin: 8px 0;
+    height: 30px;
     border-radius: 4px;
+    box-sizing: border-box;
     border: none;
     outline-color: #CD4167;
     background-color: lightgray;
+}
+
+.form-title {
+    margin: 0;
 }
 
 .form-title span {
@@ -116,6 +130,15 @@ form > input, form > select {
 
 .form-description {
     font-weight: lighter;
+}
+
+.form-newsletter span {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.last-input {
+    margin-left: 20px;
 }
 
 .form-submit-btn {
