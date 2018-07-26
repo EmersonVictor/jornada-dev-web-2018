@@ -18,7 +18,7 @@
             <div class="banner-content">
                 <h1 class="page-title"> Play<span>Me</span></h1>
                 <p>  Conheça a maior empresa de jogos infantis do Brasil. Entre em contato conosco e traga mais alegria para seus filhos. </p>
-                <button class="pink-button"><a href="#form"> inscreva-se! </a></button>
+                <button class="pink-button register-banner-btn"><a href="#form"> inscreva-se! </a></button>
             </div>
         </section>
         <section id="form">
@@ -28,7 +28,29 @@
                 <p> E para os 400 primeiros inscritos, nós faremos um desconto especial + brinde surpresa </p>
                 <h3> faltam 247 pessas </h3>
             </div>
-            <form></form>
+            <form method="POST">
+                <h2 class="form-title"> Inscreva-se <span>já!</span></h2>
+                <h3 class="form-description"> Ganhes brindes e descontos exclusivos </h3>
+
+                <input name="name" type="text" placeholder="Digite seu nome...">
+                <input name="email" type="email" placeholder="Digite seu email...">
+                <input name="phone" type="tel"  placeholder="Digite seu telefone...">
+                <select name="gender">
+                    <option value="none" selected disabled> Sexo </option>
+                    <option value="male"> Masculino </option>
+                    <option value="female"> Feminino </option>
+                    <option value="other"> Other </option>
+                    <option value="blank"> Prefiro não informar </option>
+                </select>
+                <div>  
+                    <span> Gostaria de receber nossos emails sobre futuras vendas? </span>
+                    <input type="radio" id="news-yes" name="news" checked> 
+                    <label for="news-yes"> Sim </label>
+                    <input type="radio" id="news-no" name="news"> 
+                    <label for="news-no"> Não </label>
+                </div>
+                <button type="submit" class="pink-button form-submit-btn"> concluir </button>
+            </form>
         </section>
     </body>
 </html>

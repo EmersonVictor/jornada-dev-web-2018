@@ -1,11 +1,38 @@
 /* DISPLAY BLOCK */
-
-
-
 /* DISPLAY INLINE E INLINE-BLOCK */
+/* div {
+    display: inline-block;
+    height: 500px;
+}
+
+span {
+    display: block;
+} */
+
+
 
 /* --------------------------------- */
 /* DISPLAY FLEX */
+.flex-container {
+    display: flex;
+}
+
+.flex-item {
+    height: 300px;
+    width: 300px;
+}
+
+.red {
+    background-color: red;
+}
+
+.yellow {
+    background-color: yellow;
+}
+
+.blue {
+    background-color: blue;
+}
 
 /* Flex direction */
 /* Flex wrap */
@@ -16,6 +43,30 @@
 
 /* Flex shrink */
 /* Flex grow */
+.red {
+    flex-grow: 1;
+}
+
+.blue {
+    flex-grow: 3;
+}
+
+.yellow {
+    flex-grow: 1;
+}
+
+nav {
+    display: flex;
+}
+
+/* nav img {
+    width: 30px;
+}
+
+.spacer {
+    flex-grow: 2;
+} */
+
 
 /* Order */
 /* Align self */
