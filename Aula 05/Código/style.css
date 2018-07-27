@@ -1,0 +1,109 @@
+/* TRANSITIONS */
+/* 
+    Como fazer?
+
+    Uma transição tem 4 propriedades que podem ser configuradas:
+    - transition-property (obrigatória)
+        Nome da propriedade CSS sobre a qual o efeito da transição vai ser aplicado.
+        ex: border-color, width, font-size ou ainda all (aplica sobre todas as propriedades)
+
+        div {
+            transition-property: border-color;
+        }
+
+    - transition-duration (obrigatória)
+        Duração do efeito em segundos
+
+        div {
+            transition-duration: 1s;
+        }
+
+    - transition-timing-function
+        Forma como a transição progride no tempo (o padrão é ease). 
+        Falando de um jeito mais fácil, é como se comporta o ritmo da transição durante o efeito. 
+        Pode ser usado de duas maneiras: uma é utilizando alguns valores já pré-definidos que são:
+        linear, ease, ease-in, ease-out e ease-in-out e a outra é definindo uma função customizada, 
+        especificando quatro coordenadas para definir a cubic bezier curve:
+
+        https://matthewlein.com/tools/ceaser
+
+        div {
+            transition-timing-function: cubic-bezier(0.005, 0.625, 0.365, 0.0840);
+        }
+
+        div {
+            transition-timing-function: ease-in-out;
+        }
+
+    - transition-delay
+        Define a partir de quanto tempo (em segundos) o efeito da transição vai se iniciar (o padrão é 0).
+
+    
+
+    Ainda podemos resumir isso em apenas uma propriedade:
+    div { 
+        transition: |property| |duration| |timing-function| |delay|; 
+    }
+
+    div { 
+        transition: border-color 1s linear 0.1s; 
+    }
+
+*/
+
+/* ANIMATIONS */
+/* 
+
+A regra dos keyframes
+Um keyframe descreve como o elemento que vai ser animado, deve ser renderizado em uma determinada fase, durante a sequência da animação.
+Ou seja, cada keyframe contém uma ou mais propriedades CSS que vão ser aplicadas no elemento que será ser animado e, 
+a animação se encarrega de mudar de um keyframe para outro, aplicando a transição entre as mudanças de CSS.
+
+@keyframes animacao {
+   from {
+      width: 100px; 
+      background: black;
+   }
+   to { 
+     background: yellow;
+      width: 200px;
+   }
+}
+
+@keyframes animacaoBolada {
+   0%   { 
+      background: black;
+      width: 100px;
+   }
+   25%  { background: green; }
+   50%  { background: blue; }
+   75%  { background: red; }
+   100% { 
+      background: yellow;
+      width: 200px;
+   }
+}
+
+div {
+    animation-name: animacaoBolada;
+    animation-duration: 5s;
+    animation-timing-function: ease;
+    animation-delay: 1s;
+    animation-iteration-count: infinite;
+        - Determina o número de vezes que a animação vai se repetir (o padrão é 1).
+        Podemos deixar a animação repetindo infinitamente, basta especificar o valor infinite.
+
+    animation-direction: alternate;
+        - Especifica se ao final da animação, ela deve reiniciar seu 
+        fluxo normalmente (normal), que é o padrão, ou voltar no sentido inverso (reverse).
+
+    animation-play-state: running;
+        - Define se a animação está rodando (running), que é o padrão, ou pausada (paused).
+}
+
+div { 
+    animation: animacaoBolada 5s ease 1s infinite alternate; 
+}
+
+https://www.w3schools.com/cssref/css3_pr_animation-keyframes.asp
+*/
