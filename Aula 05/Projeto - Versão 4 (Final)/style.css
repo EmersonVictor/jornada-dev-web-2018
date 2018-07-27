@@ -71,6 +71,7 @@ a:visited, a:active {
     font-size: 1.6rem;
 }
 
+
 /* Form section */
 #form {
     height: 70vh;
@@ -183,5 +184,16 @@ form > input, form > select {
 @media screen and (max-width: 560px) {
     #banner {
         background-image: none;
+    }
+}
+
+/*  Wrap form and text  */
+@media screen and (max-width: 1000px) {
+    form, .lancamento-content {
+      transition: all 0.8s;
+    }
+
+    .lancamento-content {
+        max-width: 100%;
     }
 }

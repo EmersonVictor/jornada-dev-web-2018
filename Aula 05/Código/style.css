@@ -51,6 +51,21 @@
 
 */
 
+button {
+    width: 500px;
+    border: 2px solid pink;
+    height: 30px;
+    color: black;
+    transition: all 0.7s;
+}
+
+button:hover { 
+    width: 700px;
+    border: none;
+    background-color: pink;
+    color: white;
+}
+
 /* ANIMATIONS */
 /* 
 
@@ -59,7 +74,7 @@ Um keyframe descreve como o elemento que vai ser animado, deve ser renderizado e
 Ou seja, cada keyframe contém uma ou mais propriedades CSS que vão ser aplicadas no elemento que será ser animado e, 
 a animação se encarrega de mudar de um keyframe para outro, aplicando a transição entre as mudanças de CSS.
 
-@keyframes animacao {
+@keyframes animacaoBonita {
    from {
       width: 100px; 
       background: black;
@@ -74,6 +89,9 @@ a animação se encarrega de mudar de um keyframe para outro, aplicando a transi
    0%   { 
       background: black;
       width: 100px;
+   }
+   15% {
+        background: purple;
    }
    25%  { background: green; }
    50%  { background: blue; }
