@@ -6,11 +6,12 @@ html, body {
 
 * {
     font-family: 'Josefin Sans', sans-serif;
+    box-sizing: border-box;
 }
 
 p {
-    font-size: 1.6rem;
-    font-weight: thin;
+    font-size: 2.2rem;
+    font-weight: lighter;
 }
 
 a {
@@ -22,8 +23,13 @@ a:visited, a:active {
 }
 
 #banner {
+    padding: 10% 0;
+    position: relative;
     color: #313131;
-    height: 60vh;
+    min-height: 40vh;
+    height: auto;
+    display: flex;
+    align-items: center;
     background-color: #fff;
     background-image: url("assets/banner-bg.png");
     background-repeat: no-repeat;
@@ -31,11 +37,14 @@ a:visited, a:active {
 }
 
 .social-icons-container {
+    position: absolute;
+    top: 40px;
     margin: 0 7% 3% 7%;
 }
 
 .social-icon {
-    height: 60px;
+    margin: 10px 0;
+    height: 50px;
     width: auto;
 }
 
@@ -74,7 +83,7 @@ a:visited, a:active {
 
 /* Form section */
 #form {
-    height: 70vh;
+    padding: 10% 0;
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -85,20 +94,21 @@ a:visited, a:active {
 
 .lancamento-content {
     margin-left: 7%;
-    max-width: 500px;
+    max-width: 40vw;
 }
 
 .lancamento-content > h2 {
-    font-size: 3rem;
+    font-size: 4.5rem;
 }
 
 .lancamento-content > h3 {
-    font-size: 2.5rem;
+    font-size: 4rem;
 }
 
 form {
     margin-right: 7%;
-    width: 300px;
+    width: 25%;
+    min-width: 400px;
     padding: 70px 30px;
     display: flex;
     flex-direction: column;
@@ -113,7 +123,8 @@ form > input, form > select {
     padding: 0 5px;
     width: 100%;
     margin: 8px 0;
-    height: 30px;
+    height: 40px;
+    font-size: 1.5rem;
     border-radius: 4px;
     box-sizing: border-box;
     border: none;
@@ -123,6 +134,7 @@ form > input, form > select {
 
 .form-title {
     margin: 0;
+    font-size: 2.5rem;
 }
 
 .form-title span {
@@ -130,12 +142,22 @@ form > input, form > select {
 }
 
 .form-description {
+    margin: 6px 0 10px 0;
     font-weight: lighter;
+    font-size: 1.5rem;
+    text-align: center;
 }
 
 .form-newsletter span {
     display: block;
+    margin-top: 10px;
     margin-bottom: 5px;
+    font-size: 1.5rem;
+}
+
+.form-newsletter label, .form-newsletter input {
+    font-size: 1.5rem;
+    margin-top: 4px;
 }
 
 .last-input {
@@ -143,9 +165,9 @@ form > input, form > select {
 }
 
 .form-submit-btn {
-    width: 45%;
-    height: 25px;
-    font-size: 1rem;
+    width: 65%;
+    height: 40px;
+    font-size: 2rem;
     color: white;
     margin-top: 20px;
 }
@@ -164,6 +186,7 @@ form > input, form > select {
 @media screen and (max-width: 1040px) {
     #banner {
         background-position: 20vw 0px;
+        min-height: 80vh;
     }
 
     .banner-content {
@@ -185,15 +208,29 @@ form > input, form > select {
     #banner {
         background-image: none;
     }
+
+    .banner-content {
+        width: 90%;
+    }
+
+    form {
+        min-width: 300px;
+    }
 }
 
 /*  Wrap form and text  */
 @media screen and (max-width: 1000px) {
-    form, .lancamento-content {
-      transition: all 0.8s;
+    form {
+      margin: 30px auto;
     }
 
     .lancamento-content {
         max-width: 100%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    html, body {
+        font-size: 9px;
     }
 }

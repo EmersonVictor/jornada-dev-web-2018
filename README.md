@@ -43,6 +43,7 @@ Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendim
     - [Grid Garden](https://cssgridgarden.com)
     - [CSS Course - WesBos](https://cssgrid.io)
     - [CSS - Flexbos Guide](https://origamid.com/projetos/flexbox-guia-completo/)
+    - [CSS3 Animation training](https://github.com/tertiarycourses/CSS3AnimationTraining)
 - JS
     - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
 - Outros
