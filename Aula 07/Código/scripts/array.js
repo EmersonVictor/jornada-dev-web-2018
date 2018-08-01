@@ -6,6 +6,9 @@ var musics = [
     'My song'
 ];
 
+var pokemons = ['Charizard']
+var diversos = [1, 2, 3, 4, 5, 'String', true, false, 1, 'String'] 
+
 // FUNÇÕES DE ARRAY
 
 // Pegar um elemnto do array
@@ -21,6 +24,12 @@ musics.sort(function(a, b) { return a.length > b.length });   // ['Bare', 'teste
 // Adicionar novo elemento ao array
 var newQntdMusics = musics.push('Obsessed');
 musics.splice(2, 0, "APESHIT", "Solo");
+
+var numbersArray = [1,2,3,4]
+numbersArray.push(5);
+
+numbersArray[0] = 10
+numbersArray[25] = 8
 
 // Remover elemento do array
 var musicRemovedEnd = musics.pop(); // Remove último elemento
@@ -41,3 +50,7 @@ var myMusic = musics.concat([ 'Girls Girls', 'Boys' ]);
 
 // Criar um pedaço de um array a partir de outro
 var newMusics = musics.slice(2); // ['Bare', 'My Song']
+
+// Deletar elemento pelo index
+delete musics[1]
+musics.splice(2, 1)

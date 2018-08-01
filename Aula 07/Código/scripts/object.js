@@ -3,11 +3,22 @@ var player = {
     isPlaying: true,
     currentPlaying: 'Rivers of tears',
     nextSongs: ['Cry Baby', 'Listen', 'Bare', 'My song'],
-    numberOfSongsInList: this.nextSongs.lenght
 }
+
+// typeof player [object Object]
+
+var array = [
+    1,
+    2,
+    3
+]
+
+// array.push(3)
+// array.pop()
 
 // Acessando um objeto
 player.isPlaying // true
+// array.length
 player['currentPlaying'] // 'River of tears'
 
 // Colocando novos valores
