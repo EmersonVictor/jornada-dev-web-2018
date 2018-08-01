@@ -28,12 +28,19 @@ resulta em um evento sendo disparado.
 Às vezes, o site dispara eventos automaticamente, como quando a página é carregada; 
 às vezes, o aplicativo dispara eventos como uma reação a interações. */
 var title = document.querySelector("h1");
+
 title.addEventListener('click', function () {
     console.log("Olha esse título:" + title.innerHTML);
+    title.innerHTML = "NOVO TÍTULO";
 });
 
+// tag.addEventListener('evento', função, true/false)
 
-// Event Bubling and Event Capturing
+// https://developer.mozilla.org/en-US/docs/Web/Events
+
+
+
+// Event Bubbling and Event Capturing
 /*
 Existem duas maneiras de propagar um evento: bubbling e captuing
 
@@ -53,9 +60,10 @@ var inside = document.querySelector(".inside-p");
 var outside = document.querySelector(".outside-div");
 
 inside.addEventListener("click", function() {
+    preventDefault()
     console.log("Dentro");
 }, false);
 
 outside.addEventListener("click", function () {
     console.log("Fora");
-}, true)
+});

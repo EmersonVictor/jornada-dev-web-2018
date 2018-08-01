@@ -28,15 +28,23 @@ function printNumber(x) {
     };
 };
 
+function printNumber() {
+    for (var i = 0; i <= 10; i++) {
+        console.log(i);
+    };
+};
+
+newFunction(5) 
 
 /* 
 Quando criamos uma função só estamos dizendo que ela existe, ela não vai ser executada
 Para ela ser executada precisamos chamar ela
 */
 
-var sum = sum(1, 4);
+var sum = sum(1, 4); // 5
 var getNumber = getNumber();
 printNumber(10);
+var bool = isNaN("1"); // false
 
 /* 
 Uma função pode ainda retornar alguma coisa, ou seja, devolver algum valor que foi gerado dentro dela
@@ -66,8 +74,6 @@ function myFunction(escopo) {
 var escopo = 10
 myFunction(5)
 
-
-
 // FUNÇÕES EM OBJETOS
 var person = {
     speak: function() {
@@ -77,12 +83,20 @@ var person = {
 
 person.speak()
 
-function createPerson(name, age) {
+function createPerson(naame, ge) {
     return {
         name: name,
         age: age,
     };
 };
+
+var carta1 = {
+    imagem: "y"
+}
+
+var carta2 = {
+    imagem: "x"
+}
 
 var pedro = createPerson('Pedro', 29);
 var leticia = createPerson('Letícia', 20);
