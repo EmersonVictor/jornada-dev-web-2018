@@ -19,9 +19,7 @@ O curso vai ter três pilares: HTML, CSS e JavaScript. Na primeira semana veremo
 O material será disponibilizado a vocês no decorrer das aulas (slides + comentários + links relacionados ao assunto).
 
 ## **3. Avaliação**
-A avaliação do curso será feita por meio de dois projetos. Os pesos e critérios de avaliação de cada projeto serão divulgados futuramente.
-
-**Mais informações serão adicionadas aqui**
+A avaliação do curso será feita por meio de dois projetos.
 
 ## **4. Links importantes**
 Nessa secção serão adicionados links importantes no decorrer do curso:
@@ -30,6 +28,14 @@ Nessa secção serão adicionados links importantes no decorrer do curso:
 - [VSCode - Editor](https://code.visualstudio.com)
 - [Informação sobre atributos CSS](https://www.w3schools.com)
 - [Documentaçao sobre HTML e CSS](https://developer.mozilla.org/pt-BR/docs/Web)
+- Projeto - Memory game
+    - [Como construir um jogo da memória em JS](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
+    - [Exemplo de código sobre como construir um jogo da memoria](https://github.com/mmenavas/memory-game/blob/master/js/MemoryGame.js)
+    - [Flip card](https://codepen.io/emersonvictor/pen/RByGmg)
+    - [Abrir carta selecionada](https://codepen.io/emersonvictor/pen/GBdmZy)
+    - [Criar layer sobre uma carta](https://codepen.io/emersonvictor/pen/RByGmg)
+    - [Como remover o click de um elemento](https://css-tricks.com/almanac/properties/p/pointer-events/)
+    - [Timer](https://codepen.io/emersonvictor/pen/qyKazE)
 
 ## **5. Material para estudo**
 Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendimento ou ainda para aprofundar algo visto. Se alguém tiver algum material interessante, pode fazer um sugestão que eles serão acrescentados nessa lista.
@@ -46,8 +52,12 @@ Junto com os materiais, colocarei alguns links aqui que podem ajudar no entendim
     - [CSS3 Animation training](https://github.com/tertiarycourses/CSS3AnimationTraining)
 - JS
     - [How it feels to learn JavaScript in 2016](https://hackernoon.com/how-it-feels-to-learn-javascript-in-2016-d3a717dd577f)
+    - [Eventos JS](http://desenvolvimentoparaweb.com/javascript/eventos-javascript/)
+    - [Criando e disparando eventos](https://developer.mozilla.org/pt-BR/docs/Web/Guide/Events/criando_e_disparando_eventos)
+    - [Laços/Loops](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/Guide/Lacos_e_iteracoes)
 - Outros
     - [How to think like a programmer](https://medium.freecodecamp.org/how-to-think-like-a-programmer-3ae955d414cd)
+    - [Introduão à lógica de programação com JS](https://medium.com/trainingcenter/introdu%C3%A7%C3%A3o-a-l%C3%B3gica-de-programa%C3%A7%C3%A3o-com-javascript-77d98de468c3)
     - [Google Fonts](https://fonts.google.com/)
     - [GitHub Tutorial](http://rogerdudler.github.io/git-guide/index.pt_BR.html)
 
