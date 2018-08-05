@@ -28,6 +28,7 @@ Nessa secção serão adicionados links importantes no decorrer do curso:
 - [VSCode - Editor](https://code.visualstudio.com)
 - [Informação sobre atributos CSS](https://www.w3schools.com)
 - [Documentaçao sobre HTML e CSS](https://developer.mozilla.org/pt-BR/docs/Web)
+- [Link para minha versão do projeto](https://github.com/EmersonVictor/matching-game)
 - ## Projeto - Jogo da memória
     - [Como construir um jogo da memória em JS](https://scotch.io/tutorials/how-to-build-a-memory-matching-game-in-javascript)
     - [Exemplo de código sobre como construir um jogo da memoria](https://github.com/mmenavas/memory-game/blob/master/js/MemoryGame.js)
